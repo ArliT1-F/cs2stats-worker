@@ -1,0 +1,29 @@
+{
+  "name": "cs2stats-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArliT1-F/cs2stats-worker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ArliT1-F/cs2stats-worker/issues"
+  },
+  "homepage": "https://github.com/ArliT1-F/cs2stats-worker#readme",
+  "dependencies": {
+    "@laihoe/demoparser2": "^0.41.3",
+    "@supabase/supabase-js": "^2.106.1",
+    "dotenv": "^17.4.2",
+    "fzstd": "^0.1.1"
+  },
+  "tpye": "module"
+}
